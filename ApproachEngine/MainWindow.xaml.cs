@@ -24,5 +24,10 @@ namespace ApproachEngine
         {
             InitializeComponent();
         }
+
+        private void btnTest_Click(object sender, RoutedEventArgs e)
+        {
+            Console.Write("This is a test!");
+        }
     }
 }

@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApproachEngine.Entity
+namespace ApproachEngine.GameUI
 {
-    public class Entity
+    class Input
     {
+
+
 
     }
 }

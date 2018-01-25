@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 
 namespace ApproachEngine.GameUI
 {
-    class Window
+    public class Window
     {
         List<HUDelement> HUD;
-       
+        public static Graphics.Map currentMap;
+        public int Height, Width;
+
     }
 }

@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{14BEB617-7437-49A6-8994-08A299539CFA}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>ApproachEngine</RootNamespace>
     <AssemblyName>ApproachEngine</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
@@ -32,6 +32,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,6 +66,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="EngineUI\Grid.cs" />
+    <Compile Include="Entity\Enemy.cs" />
+    <Compile Include="Entity\Projectile.cs" />
+    <Compile Include="GameUI\Input.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -75,7 +81,7 @@
     <Compile Include="GameUI\HUDelement.cs" />
     <Compile Include="Region\Tile.cs" />
     <Compile Include="GameUI\Window.cs" />
-    <Compile Include="Graphics\ASCIIRenderer.cs" />
+    <Compile Include="Graphics\Renderer.cs" />
     <Compile Include="Graphics\Map.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

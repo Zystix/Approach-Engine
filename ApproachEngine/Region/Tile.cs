@@ -8,5 +8,7 @@ namespace ApproachEngine.Region
 {
     public class Tile
     {
+        public char Character;
+
     }
 }

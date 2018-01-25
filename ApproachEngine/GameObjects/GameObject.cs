@@ -8,5 +8,6 @@ namespace ApproachEngine.GameObjects
 {
     class GameObject
     {
+        string name;
     }
 }

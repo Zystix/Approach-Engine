@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ApproachEngine.Entity
 {
-    public class Entity
+    class Enemy
     {
 
     }

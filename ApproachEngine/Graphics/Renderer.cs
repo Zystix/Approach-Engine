@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ApproachEngine.Graphics
 {
-    public static class ASCIIRenderer
+    public static class Renderer
     {
-        public static void Draw(Map map)
+        public static void Draw(GameUI.Window Window)
         {
             
         }
